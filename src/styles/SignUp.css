@@ -1,0 +1,49 @@
+.signUpContainer {
+    background: rgba(241, 241, 241, 0.5);
+    box-shadow: 9.65px 14.475px 9.65px 0px rgba(0, 0, 0, 0.1);
+}
+
+.signupPlaceholder {
+    border: double 1px transparent;
+    border-radius: 30px;
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, #018FFD, #070C84);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    line-height: 1.2;
+}
+
+.signupPlaceholderErr {
+    --tw-border-opacity: 1;
+    border-color: rgb(239 68 68 / var(--tw-border-opacity));
+    border-radius: 30px;
+    background-image: none;
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    line-height: 1.2;
+
+}
+
+.signupPlaceholder::-webkit-input-placeholder {
+    color: #313131;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.signUpBtn {
+    background: linear-gradient(168deg, #018FFD -51.89%, #070C84 129.39%);
+    color: #fff;
+}
+
+.signUpBtn:hover {
+    background: linear-gradient(168deg, #0e90f3 -51.89%, #1f25cc 129.39%);
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .signUpContainer {
+        box-shadow: none;
+        border: none;
+  }
+}
